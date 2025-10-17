@@ -1,0 +1,7 @@
+{
+  "name": "hackathon-m1",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
