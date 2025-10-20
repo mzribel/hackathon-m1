@@ -41,7 +41,7 @@ export const usePhotoStore = defineStore('photoStore', () => {
         const index = photos.value.findIndex((p) => p.name === photoName);
 
         if (index === -1) {
-            console.warn(`Photo "${photoName}" not found`);
+            console.warn(`Photo "${photoName}" non trouvée`);
             return false;
         }
 

@@ -103,7 +103,9 @@ import {
     IonRow,
     IonCol,
     IonGrid,
-    IonToggle
+    IonToggle,
+    IonLabel,
+    IonItem
 } from '@ionic/vue';
 import {useCamera} from '@/composables/useCamera';
 import {usePhotoStore} from '@/stores/photoStore';
@@ -124,7 +126,6 @@ const {getCurrentPosition} = useGeolocation();
 
 const toggleFav = () => {
     photoStore.toggleFavoritesFilter();
-    console.log(showOnlyFavorites.value)
 }
 
 const handleTakePhoto = async () => {
